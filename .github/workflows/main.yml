@@ -4,8 +4,6 @@ jobs:
   obs_helper:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Upload To Huawei OBS
         uses: ./
         id: upload_file_to_obs
@@ -17,14 +15,3 @@ jobs:
           localFilePath: README.md
           obsFilePath: 
           operationType: upload
-      - name: Download from Huawei OBS
-        uses: ./
-        id: download_file_from_obs
-        with:
-          accessKey: ${{ secrets.ACCESSKEY }}
-          secretKey: ${{ secrets.SECRETACCESSKEY }}
-          region: cn-north-4
-          bucketName: hdn-github-action
-          localFilePath: ${{ github.workspace }}
-          obsFilePath: test.txt
-          operationType: download
