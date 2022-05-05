@@ -11,7 +11,7 @@ jobs:
         id: upload_file_to_obs
         with:
           access_key: ${{ secrets.ACCESSKEY }}
-          secret_key: ${{ secrets.SECRETACCESSKEY }}
+          secret_key: ${{ secrets.SECRETKEY }}
           region: cn-north-4
           bucket_name: hdn-github-action
           local_file_path: README.md
