@@ -15,5 +15,5 @@ jobs:
           region: cn-north-4
           bucket_name: hdn-github-action
           local_file_path: README.md
-          obs_file_path: ''
+          obs_file_path: '/'
           operation_type: upload
