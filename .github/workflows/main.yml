@@ -10,10 +10,10 @@ jobs:
         uses: ./
         id: upload_file_to_obs
         with:
-          accessKey: ${{ secrets.ACCESSKEY }}
-          secretKey: ${{ secrets.SECRETACCESSKEY }}
+          access_key: ${{ secrets.ACCESSKEY }}
+          secret_key: ${{ secrets.SECRETACCESSKEY }}
           region: cn-north-4
-          bucketName: hdn-github-action
-          localFilePath: README.md
-          obsFilePath: ''
-          operationType: upload
+          bucket_name: hdn-github-action
+          local_file_path: README.md
+          obs_file_path: ''
+          operation_type: upload
