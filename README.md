@@ -1,3 +1,2 @@
 # obs-helper-action
 
-null
