@@ -1,5 +1,9 @@
 version: 2.0
 
+params:
+  - name: exclude  # 排除检查文件目录
+    value: (dist)   # 使用正则表达式，注意括号不能去掉
+
 steps:
   pre_codecheck:
     - checkout
