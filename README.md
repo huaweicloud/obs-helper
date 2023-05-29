@@ -1,6 +1,6 @@
 # Huawei Cloud OBS Helper
 [对象存储服务（Object Storage Service，OBS）](https://www.huaweicloud.com/product/obs.html)是一个基于对象的海量存储服务，为客户提供海量、安全、高可靠、低成本的数据存储能力。
-您可以使用[OBS Helper action](https://github.com/marketplace/actions/huaweicloud-obs-helper)实现如下对OBS的操作：  
+您可以使用[OBS Helper action](https://github.com/marketplace/actions/huawei-cloud-obs-helper-action)实现如下对OBS的操作：  
 1、上传文件/文件夹  
 2、下载文件/文件夹  
 3、创建桶  
